@@ -1,0 +1,476 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital@0;1&family=Roboto:wght@100;400;700&display=swap');
+@font-face {
+	font-family: 'Palatino Normal';
+	src: url('./fonts/palatino_normal.eot'); /* IE 9 Compatibility Mode */
+	src: url('./fonts/palatino_normal.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('./fonts/palatino_normal.woff2') format('woff2'), /* Super Modern Browsers */
+		url('./fonts/palatino_normal.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('./fonts/palatino_normal.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('./fonts/palatino_normal.svg#palatino_normal') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+body{
+	width: 100%;
+	margin: 0;
+	background-color: #F7F7F7;
+}
+.main{
+	max-height: 1560px;
+	max-width: 1560px;
+}
+.header{
+	border-bottom: 1px solid lightgrey;
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background-color: #F7F7F7;
+	padding: 10px;
+}
+.about{
+	width: 30%;
+	display: flex;
+	font-size: 16px;
+	bottom: 60px;
+	position: absolute;
+	margin-bottom: -57px;
+	margin-left: -52px;
+
+}
+.name{
+	display: flex;
+	height: 47px;
+	justify-content: space-around;   /*создает растояния вокруг элемента*/ 
+} 
+.header nav ul li{
+	display: inline-block;
+	margin-left: 20px;
+	font-family: 'Cardo';
+	font-size: 17px;
+}
+a{
+	text-decoration: none;
+	color: black;
+}                                   /*align-items: center; выстраивает по центру вертикали*/
+.background{ 
+	display: flex;
+	height: 698px;
+	margin-top: 36px;
+	background-image: url('./img/background.png');
+	background-size: cover;
+	text-align: center;
+	background-repeat: no-repeat;
+}
+.background h2{
+	font-family: 'Roboto';
+	font-size: 27px;
+	color: white;
+	padding-top: 253px;
+	padding-left: 371px;
+	line-height: 38px;
+	letter-spacing: 0.5px;
+}
+.background p{
+	font-family: 'Palatino Normal';
+	border: 1px solid black;
+	background-color: black;
+	color: white;
+	font-size: 15px;
+	height: 30px;
+	margin-top: 650px;
+	margin-left: -853px;
+	line-height: 20px;
+	padding-right: 27px;
+	padding-left: 27px;
+	padding-top: 13px;
+}
+.btn1{
+	font-size: 20px;
+	font-family: 'Cardo';
+	border: 1px solid white;
+	color: white;
+	padding: 2px 47px;
+	background: none;
+	height: 34px;
+	margin-top: 392px;
+	margin-left: -495px;
+	text-decoration: none;
+	line-height: 20px;
+
+}
+.nav{
+	display: flex;
+	height: 120px;
+	justify-content: space-around;   /*создает растояния вокруг элемента*/ 
+}                                    /*align-items: center; выстраивает по центру вертикали*/
+.car{
+	display: flex;
+	align-items: center; 
+}
+.star{
+	display: flex;
+	align-items: center; 
+}
+.tree{
+	display: flex;
+	align-items: center;
+}
+.map{
+	display: flex;
+	align-items: center;
+	margin-right: 191px;
+}
+.fon{
+	display: flex;
+	border: none;
+}
+.reviews{
+	display: flex;
+	align-items: center;
+	margin-right: 20px;
+}
+.nav img{
+	margin-right: 12px;
+}
+.nav p {
+	font-size: 13px;
+	font-family: 'Roboto';
+
+}
+.fon img{
+	width: 390px;
+	height: 285px;
+	border: 0;
+}
+.part2{
+	display: flex;
+}
+.cloepic{
+	width:900px;
+	height: 542px;
+	margin-top: 100px;
+}
+.cloe{
+	text-align: right;
+	bottom: 290px;
+	margin-top: 165px;
+	padding-right: 35px;
+}
+.text-right{
+	font-family: 'Roboto';
+	text-align: right;
+	font-size: 33px;
+}
+.text-left{
+	font-family: 'Roboto';
+	text-align: left;
+	font-size: 33px;
+}
+.right{ 
+	font-family:'Cardo';
+	font-style: italic;
+	font-size: 18px;
+}
+.right2{	
+	right: 20px;
+	font-size: 13px;
+	margin-top: 30px;
+	margin-bottom: 46px;
+}
+.right3{
+	font-family: 'Cardo';
+	font-size: 18px;
+	color: #525252;
+}
+.button{
+	font-family: 'Roboto';
+	color: black;
+	font-size: 17px;
+	right: 20px;
+	background-color: #F7F7F7;
+	border: none;
+	border-bottom: 1px solid black;
+	margin-top: 56px;
+}
+.part3{
+	display: flex;
+	height: 542px;
+	margin-top: 29px;
+}
+.text2{
+	text-align: left;
+	width: 500px;
+	height: 400px;
+	margin-left: 40px;
+	margin-top: 70px;
+}
+.all-image{
+	width: 900px;
+	height: 542px;
+}
+.paragraph{
+	font-family: 'Cardo';
+	font-size: 18px;
+}
+.paragraph2{
+	font-size: 13px;
+	margin-top: 20px;
+}
+.paragraph3{
+	font-size: 18px;
+	font-family: 'Cardo';
+	margin-top: 20px;
+	color: #525252;
+}
+.paragraph4{
+	font-size: 16px;
+	color: #525252;
+	margin-top: 25px;
+}
+
+.part4{
+	display: flex;
+	margin-top: -70px;
+}
+.new{
+	color: #BC1414;
+	font-style: italic;
+	margin-top: 75px;
+	font-size: 14px;
+}
+.part-text{
+	text-align: right;
+	bottom: 290px;
+	margin-top: 76px;
+	padding-right: 35px;
+}
+.aladah1{
+	font-family: 'Roboto';
+	text-align: right;
+	font-size: 32px;
+	margin-top: 25px;
+}
+.part5{
+	display: flex;
+	height: 542px;
+	margin-top: 29px;
+}
+
+.logo{
+	display: flex;
+	margin-top: 56px;
+	width: 70px;
+	height: 70px;
+}
+.logo img{
+	padding-right: 30px;
+}
+.part6{
+	display: flex;
+	margin-top: -70px;
+}
+.part-text6{
+	text-align: right;
+	bottom: 290px;
+	margin-top: 172px;
+	padding-right: 35px;
+}
+.pic-part7{
+	display: flex;
+	justify-content: center;
+	margin-top: 40px;
+}
+.part7 h1{
+     text-align: center;
+     font-family: 'Cardo';
+}
+.part7{
+	margin-top: 61px;
+
+}
+.part7 p{
+     text-align: center;
+     font-size: 18px;
+	margin-left: 5px;
+}
+.parent{
+	margin-right: 10px;
+}
+.instapaula{
+	display: flex;
+	position: relative;
+	font-size: 14px;
+	color: white;
+	left: 283px;
+	bottom: 520px;
+
+}
+.instalinda{
+	display: flex;
+	position: relative;
+	font-size: 14px;
+	color: white;
+	left: 221px;
+	bottom: 520px;
+}
+.instamarta{
+	display: flex;
+	position: relative;
+	font-size: 14px;
+	color: white;
+	left: 240px;
+	bottom: 520px;
+}
+.part8{
+	width: 1190px;
+	font-family: 'Cardo';
+	font-style: italic;
+	text-align: center;
+	font-size: 20px;
+	margin-left: 158px;
+}
+.part8-p{
+	font-family: 'Cardo';
+	text-align: center;
+	font-size: 15px;
+	margin-top: 39px;
+}
+.part9{
+	display: flex;
+	text-align: center;
+	margin-top: 64px;
+}
+.part9 img{
+	margin-top: 55px;
+	height: 80px;
+}
+
+.pic1-part9{
+	width: 390px;
+	height: 370px;
+	background-color: white;
+}
+.pic2-part9{
+	width: 390px;
+	height: 370px;	
+}
+.pic3-part9{
+	width: 390px;
+	height: 370px;
+	background-color: white;
+}
+.pic4-part9{
+	width: 390px;
+	height: 370px;
+}
+.tagname{
+	font-size: 24px;
+}
+.textpic{
+	font-size: 15px;
+}
+button{
+	font-family: 'Cardo';
+	font-size: 15px;
+	border: none;
+	text-decoration: underline;
+}
+.btn-color1-3{
+	background-color: white;
+}
+.btn-color2-4{
+	background-color: #F7F7F7;
+}
+
+.left{
+	margin-left: 10px;
+}
+.pas1{
+	margin-top: 17px;
+}
+.pas2{
+	margin-top: 32px;
+}
+.pas3{
+	margin-top: 17px;
+}
+.pas4{
+	margin-top: 17px;
+}
+.footer1 {
+ height: 315px;
+ text-align: center;
+}
+
+.footer1 p {
+ text-align: center;
+ margin: 133px 570px 41px;
+ font-size: 20px;
+ font-family: 'Cardo';
+}
+
+.footer1 img {
+ 	width: 1420px;
+}
+footer{
+	background-color: #E9E9E9;
+}
+.nav-footer{
+	display: flex;
+	text-align: center;
+	padding-top: 56px;
+}
+footer nav ul li{
+	list-style: none;
+}
+.about-footer{
+	font-family: 'Cardo';
+	line-height: 30px;
+	padding-left: 225px;
+	padding-right: 15px;
+}
+.space{
+	margin-bottom: 30px;
+	font-size: 21px;
+}
+.help-footer{
+	font-family: 'Cardo';
+	line-height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.more-footer{
+	font-family: 'Cardo';
+	line-height: 30px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+.foot-pic{
+	padding-left: 170px;
+}
+.newsletter{
+	background-color: white;
+	border: 1px solid black;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 26px;
+}
+.fsg img{
+	margin: 15px;
+}
+.last-footer{
+	display: flex;
+	padding: 0 220px 60px 287px;
+	margin-top: 15px;
+}
+.last-footer p{
+	font-size: 12px;
+	font-family: 'Cardo';
+	padding-top: 8px;
+
+}
+.img-footer{
+	padding-left: 61px;
+}
+.terms{
+	padding-left: 75px;
+}
